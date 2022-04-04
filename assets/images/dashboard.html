@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=width-device, initial-scale=1.0" />
+    <title> Dashboard Page </title>
+    <link rel="stylesheet" href="dashboard.css" media="screen">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body onload="newTip()">
+
+    <div class="body-rect" style="display:flex; flex-direction:column;  max-width:100%; height:auto">
+
+        <div class="body-header-text" style="display:flex; flex-direction: row;  max-width:100%; height:auto">
+            <span id="user" class="message">Hello, < email-id></span>
+            <button type="submit" id="logOutBtn" class="logOut">Logout</button>
+        </div>
+
+        <p class="body-subtext">What would you like to do</p>
+        <div class="todo-rect" style="display:flex; flex-direction: row;">
+            <a href="not_found/not_found.html">
+                <img class="cal-rect" src="images/cal-pic.svg" alt="calories"
+                    style="width:27vw; margin-left:5vw;margin-bottom:3vw;">
+            </a>
+            <a href="meal/index.html">
+                <img class="meal-rect" src="images/meal-pic.svg" alt="meals"
+                    style="width:26vw;margin-left:4vw;margin-bottom:3vw;">
+            </a>
+            <a href="/public/exercise/index.html">
+                <img class="exercise-rect" src="images/exercise-pic.svg" alt="exercises"
+                    style="width:26vw;margin-left:4vw;margin-bottom: 1vw;margin-right: 2vw;">
+            </a>
+        </div>
+
+        <div class="tip" style="display:flex; flex-direction:row;  max-width:100%; height:auto">
+            <img class="bulb-icon" src="images/bulb.svg" alt="tip">
+            <div style="display:flex; flex-direction:column;  max-width:100%; height:auto">
+                <p class="tip-text1">#Useful Health Tips</p>
+
+                <div id="tip-text2">
+
+                </div>
+            </div>
+
+        </div>
+        <script type="module" src="login/welcome.js"></script>
+        <script src="quote.js"></script>
+        <script id="BotPenguin-messenger-widget" src="https://cdn.botpenguin.com/botpenguin.js"
+            defer>616d0b79a0fdab78e44ae8c1, 616d0a4bf5bb6e78fb76668a</script>
+
+        <body>
+
+</html>
