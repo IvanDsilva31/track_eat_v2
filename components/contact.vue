@@ -26,7 +26,7 @@
                 </p>
               </div>
             </div>
-            &COPY; Copyright 2021 <a href="#">Track-EAT</a> | Created by
+            &COPY; Copyright 2022 <a href="#">Track-EAT</a> | Created by
             <a href="#" target="_blank">SE COMPS A GROUP 11</a><br /><br />
           </div>
         </div>
