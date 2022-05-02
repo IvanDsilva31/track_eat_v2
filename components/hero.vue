@@ -54,7 +54,7 @@
               style="margin-left: 0"
             />
             <a
-              href=""
+              href="/video"
               class="glightbox position-absolute top-50 start-50 translate-middle"
             >
               <span>
@@ -85,6 +85,7 @@
 import { setTimeout } from "timers";
 
 export default {
+  name: "hero",
   data: () => {
     return {
       typeValue: "",
